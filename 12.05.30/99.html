@@ -1,0 +1,23 @@
+<!doctype html>
+<html><meta charset="utf-8"/>
+<body>
+<section>
+<script>
+var score=window.prompt("점수 입력 : ") //window.prompt는 사용자로 부터 값을 받을 수 있는 창을 만들 수 있다
+score=parseFloat(score);
+var grade=undefined;
+if(score>=90){
+grade="A";
+}
+else if(score>=80){
+grade="B";
+}
+else if(score>=70){
+grade="C";
+}
+else{
+grade="F";
+}
+document.write("grade=",grade,"<br/>");
+</script></section>
+</body></html> 
